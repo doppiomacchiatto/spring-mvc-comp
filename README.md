@@ -15,9 +15,9 @@ The project uses gradle for dependency and build management.
 ### Runing the Applicaiton
 From the command line type ```:> gradle jettyRun```
 
-Then Navigate to:http://localhost:8099/spring-mvc-comp/
-***user:*** **admin**
-***assword:*** **password**
+Then Navigate to: http://localhost:8099/spring-mvc-comp/
+***user name:*** **admin**
+***password:*** **password**
 
 ###TODO's
 - [] deploy to Heroku App with Gradle.
