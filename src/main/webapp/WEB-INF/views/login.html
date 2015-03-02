@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="header">
+<title>Login</title>
+<link rel="stylesheet" href="../../css/bootstrap.css" type="text/css"
+	th:href="@{/css/bootstrap.css}" />
+<link rel="stylesheet" href="../../css/signin.css" type="text/css"
+	th:href="@{/css/signin.css}" />
+</head>
+<body>
+	<div class="container">
+		<form class="form-signin" th:action="@{/j_spring_security_check}"
+			method="post">
+			<h2 class="form-signin-heading">Please sign in</h2>
+			<input type="text" class="form-control" id="j_username"
+				name="j_username" placeholder="User Name" /> <input type="password"
+				class="form-control" id="j_password" name="j_password"
+				placeholder="Password" />
+			<button class="btn btn-lg btn-primary btn-block" type="submit">Sign
+				in</button>
+				<p class=".has-error .form-control:focus " th:if="${loginError}"><h3 class="h3 small">Wrong user name or password</h3></p>
+		</form>
+	</div>
+</body>
+</html>

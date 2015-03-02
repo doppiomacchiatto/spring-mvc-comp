@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:th="http://www.thymeleaf.org">
+<head>
+<link th:href="@{/css/bootstrap.css}" rel="stylesheet" />
+<script th:src="@{/js/holder.js}"></script>
+<link th:href="@{/css/sticky-footer.css}" rel="stylesheet" />
+<link th:href="@{/css/rateit.css}" rel="stylesheet" />
+<link th:href="@{/css/custom.css}" rel="stylesheet" />
+</head>
+<body>
+
+	<section layout:replace="navbar"></section>
+
+	<div id="wrap" style="margin-top: 80px;">
+		<div class="container">
+			<section layout:fragment="content"></section>
+		</div>
+	</div>
+
+	<section layout:replace="footer"></section>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+button {
+	width:120px;
+}
+
+table.product {
+	width: 100%;
+}
+
+table.product td {
+	padding: 20px;
+}
+
+table.product-detail {
+	
+}
+
+.panel {
+	background-color: #FFFFFF;
+	box-shadow: none;
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+}
+
+.panel:after {
+	color: #BBBBBB;
+	font-weight: bold;
+	left: 15px;
+	letter-spacing: 1px;
+	position: absolute;
+	text-transform: uppercase;
+	top: 15px;
+}
+
+.panel+.highlight {
+	border-radius: 0 0 0 0;
+	border-width: 0 0 1px;
+	margin: -15px -15px 15px;
+}
+
+.table thead > tr > th,
+.table tbody > tr > th,
+.table tfoot > tr > th,
+.table thead > tr > td,
+.table tbody > tr > td,
+.table tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+    border-top: none;
+}
+
