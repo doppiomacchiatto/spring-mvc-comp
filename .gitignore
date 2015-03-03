@@ -7,7 +7,6 @@
 *.o
 *.so
   
-
 # OS generated files #
 ######################
 .DS_Store
@@ -19,7 +18,8 @@ ehthumbs.db
 Thumbs.db 
 
 #Directories
-/target
+##############
+/target/
 /build/
 /.settings/
 /bin/
@@ -28,4 +28,3 @@ Thumbs.db
 ##############
 .classpath
 .project
-
