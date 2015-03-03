@@ -26,4 +26,4 @@ Thumbs.db
 #Eclipse Files
 ##############
 .classpath
-.ignore
+.project
