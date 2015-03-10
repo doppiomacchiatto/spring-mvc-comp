@@ -20,5 +20,5 @@ Then Navigate to: http://localhost:8099/spring-mvc-comp/
 ***password:*** **password**
 
 ###TODO's
-- [] deploy to Heroku App with Gradle.
+- [] deploy to Heroku App with Gradle. http://www.wiredforcode.com/blog/2014/02/11/deploy-to-heroku-with-gradle
 - [] Wire the Project Home navbar. ```<a href="#" class="navbar-brand">Project name</a>```
