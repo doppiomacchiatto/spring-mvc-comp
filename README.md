@@ -1,8 +1,8 @@
 ##Spring MVC 
 
-This sample application was created in order to play around with Thymeleaf and Spring MVC.  It was on my personal laptop lost. I found it while cleaning my dev projects so I decided to share it.
+This sample application was created in order to play around with Thymeleaf and Spring MVC.  It was on my personal laptop lost.... I found it while cleaning my dev projects so I decided to share it.
 
-The application is composed of Spring MVC, Spring Security and Thymeleaf.  Also, I added Twitter's bootstrap for style and look + feel.
+The application is composed of Spring MVC, Spring Security and Thymeleaf.  Also, I added Twitter's bootstrap for style and look + feel. The application is a traditional web application - web-inf directory and all.  On my spare time, I will update to use Spring-Boot.   
 
 The spring-security-xml is used to configure login information.  Spring provides a variety of projects that support known industry standards such as: LDAP, OAUTH & SAML. http://projects.spring.io/spring-security/
 
