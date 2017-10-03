@@ -1,4 +1,4 @@
-##Spring MVC 
+## Spring MVC ##
 
 This sample application was created in order to play around with Thymeleaf and Spring MVC.  It was on my personal laptop lost.... I found it while cleaning my dev projects so I decided to share it.
 
@@ -8,17 +8,17 @@ The spring-security-xml is used to configure login information.  Spring provides
 
 The project uses gradle for dependency and build management.
 
-### Requirements
+### Requirements ###
 1. Java 1.7
 2. Gradle
 
-### Runing the Applicaiton
+### Runing the Applicaiton ###
 From the command line type ```:> gradle jettyRun```
 
 Then Navigate to: http://localhost:8099/spring-mvc-comp/
 ***user name:*** **admin**
 ***password:*** **password**
 
-###TODO's
+### TODO's ###
 - [] deploy to Heroku App with Gradle. http://www.wiredforcode.com/blog/2014/02/11/deploy-to-heroku-with-gradle
 - [] Wire the Project Home navbar. ```<a href="#" class="navbar-brand">Project name</a>```
